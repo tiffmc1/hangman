@@ -1,5 +1,5 @@
 import React from "react";
-import "../app.css";
+import "../styles/images.css";
 
 const Images = ({ chancesImg }) => {
 	return (
@@ -14,7 +14,7 @@ const Images = ({ chancesImg }) => {
 					/>
 				) : (
 					<img
-						src={require("../assets/images/hangman0.png").default}
+						src={require("../assets/images/hangman-0.png").default}
 						alt=""
 						height={350}
 						width={250}

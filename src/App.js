@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ChosenWordLetters from "./components/ChosenWordLetters";
 import Images from "./components/Images";
-import "./app.css";
+import "./styles/app.css";
 import { alphabet, categoryData } from "./data";
 
 const App = () => {

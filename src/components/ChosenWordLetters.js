@@ -1,5 +1,5 @@
 import React from "react";
-import "../app.css";
+import "../styles/chosenWordLetters.css";
 import { underscore } from "../data";
 
 const ChosenWordLetters = ({ chosenWordLetters }) => {
